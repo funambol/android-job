@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.ben-manes.versions'
 apply from: '../build-config/gradle-quality.gradle'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.funambol'
 
 archivesBaseName = 'android-job'
 
